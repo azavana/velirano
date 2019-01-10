@@ -1,25 +1,30 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "antd/dist/antd.css";
+import "./App.css";
+import { velirano, title } from "./components/data/velirano";
+import VeliranoList from "./components/veliranoList";
+import { Row, Col, Layout } from "antd";
+const { Header, Content } = Layout;
 
 class App extends Component {
+  componentDidMount() {
+    console.log(velirano);
+  }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <Layout>
+          <Header />
+          <Content style={{ padding: "0 50px" }}>
+            <Row>
+              <Col span={6} />
+              <Col span={12}>
+                <VeliranoList list={velirano} title={title} />
+              </Col>
+              <Col span={6} />
+            </Row>
+          </Content>
+        </Layout>
       </div>
     );
   }

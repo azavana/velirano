@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Velirano
 
-## Available Scripts
+We want to help our president to keep track of all his promises. This app lists all promises made by our brand new president. At this very beginning, we just want to make sure that we do not forget anything and after 5 years, we want to celebrate all big changes, that our president promises us.
 
-In the project directory, you can run:
+# A bit about the technical part
 
-### `npm start`
+This page is written in react and deployed as github page so it is pure static. Which means that we need to update the data during 5 years in. That's ok, it is worth it :P it keeps us to follow the news.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Where are the Promises listed?
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+> /src/component/data/velirano.js
 
-### `npm test`
+Feel free to add more if we miss some.
+The first list of promises were listed here [Madagascar Liberte](https://www.facebook.com/Madagascar-Liberte-323800257814589/?__xts__[0]=68.ARB30-118w_exr5aW8MnxPY6q0fFPvrnc2hiJLlJfXasisIQiBeWZej5U3Mr8mTBLL__yXs7f16iOq-TpKu67kpSLsbtsMBKKruDGCTOVAh5fvwMzK5VqDbtUIAs7QT3GtymEdSXxuGJYuNGXw39Pl-PG60yQQbzIo2gpxD-9pcOYRsQ3OwuGE8do4ubv_DwufqEB0E412hFiU9VFicIJp8o_xiAp3Is5_iyHe8Y8AP2yD5h_jiXjylBwu0C5rOpTUIvJ1PPjYu4knhLakt8zXlesCrf-0QphVqABSGLd2HCGRQF909b8IY0_Rg4XgjpU-o-EzDfMCD6CrkPW6BjXluzgA) We just copied it.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# PS
 
-### `npm run build`
+Above all this is just for fun, for FUN...
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Need Collab
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+As usual, this is just the beginning of an idea and we want you to code with us, to make this awesome.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# What can be done next?
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. [ ] Better styling (Please massive help on this)
+2. [ ] Add count down.
+3. [ ] Add some fancy statistics about done task.
+4. [ ] May be you have ideas :) tell us about it.
