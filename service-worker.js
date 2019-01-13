@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/velirano/precache-manifest.ff8349fa52c01b20e0617191cd760d3b.js"
+  "/velirano/precache-manifest.258a44a84fa71d28fd117bf6f75f35d6.js"
 );
 
 workbox.clientsClaim();
