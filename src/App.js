@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import "antd/dist/antd.css";
 import "./App.css";
+import Navbar from './components/Navbar';
 import { velirano, title } from "./components/data/velirano";
+import { Card } from 'rimble-ui';
 import VeliranoList from "./components/veliranoList";
 import { Row, Col, Layout } from "antd";
-const { Header, Content } = Layout;
+const { Content } = Layout;
 
 class App extends Component {
   componentDidMount() {
@@ -13,16 +14,12 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <Layout>
-          <Header />
-          <Content style={{ padding: "0 50px" }}>
-            <Row>
-              <Col span={6} />
-              <Col span={12}>
-                <VeliranoList list={velirano} title={title} />
-              </Col>
-              <Col span={6} />
-            </Row>
+          <Content style={{ marginTop: 94 }}>
+            <Card width={'800px'} mx={'auto'} px={4}>
+              <VeliranoList list={velirano} title={title} />
+            </Card>
           </Content>
         </Layout>
       </div>

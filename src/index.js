@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'source-sans-pro/source-sans-pro.css';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { ThemeProvider } from 'rimble-ui';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>
+  , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
