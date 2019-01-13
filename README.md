@@ -23,7 +23,8 @@ As usual, this is just the beginning of an idea and we want you to code with us,
 
 # What can be done next?
 
-1. [ ] Better styling (Please massive help on this)
-2. [ ] Add count down.
-3. [ ] Add some fancy statistics about done task.
-4. [ ] May be you have ideas :) tell us about it.
+1. [x] Add count down.
+2. [ ] Add some fancy statistics about done task.
+3. [ ] May be you have ideas :) tell us about it.
+
+PS: Huge thx to @realtsiry for design idea :), improvement is always welcome.
