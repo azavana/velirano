@@ -4,7 +4,6 @@ import { List } from "antd";
 
 const VeliranoList = props => (
   <List
-    header={<div>{props.title}</div>}
     dataSource={props.list}
     renderItem={item => (
       <List.Item>
