@@ -1,0 +1,10 @@
+.countDownTable {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  color: rgb(102, 102, 102);
+}
+
+.heading {
+  color: rgb(102, 102, 102);
+}
