@@ -8,7 +8,7 @@ This page is written in react and deployed as github page so it is pure static. 
 
 # Where are the Promises listed?
 
-> /src/component/data/velirano.js
+> /src/Constants/Velirano.js
 
 Feel free to add more if we miss some.
 The first list of promises were listed here [Madagascar Liberte](https://www.facebook.com/Madagascar-Liberte-323800257814589/?__xts__[0]=68.ARB30-118w_exr5aW8MnxPY6q0fFPvrnc2hiJLlJfXasisIQiBeWZej5U3Mr8mTBLL__yXs7f16iOq-TpKu67kpSLsbtsMBKKruDGCTOVAh5fvwMzK5VqDbtUIAs7QT3GtymEdSXxuGJYuNGXw39Pl-PG60yQQbzIo2gpxD-9pcOYRsQ3OwuGE8do4ubv_DwufqEB0E412hFiU9VFicIJp8o_xiAp3Is5_iyHe8Y8AP2yD5h_jiXjylBwu0C5rOpTUIvJ1PPjYu4knhLakt8zXlesCrf-0QphVqABSGLd2HCGRQF909b8IY0_Rg4XgjpU-o-EzDfMCD6CrkPW6BjXluzgA) We just copied it.

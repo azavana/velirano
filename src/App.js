@@ -1,17 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import { velirano, title } from "./components/data/velirano";
+import Navbar from "./Components/Navbar";
+import VeliranoList from "./Components/VeliranoList";
+import Countdown from "./Components/CountDown";
 import { Card } from "rimble-ui";
-import VeliranoList from "./components/veliranoList";
 import { Layout } from "antd";
-import Countdown from "./components/countDown";
+
 const { Content } = Layout;
 
 class App extends Component {
-  componentDidMount() {
-    console.log(velirano);
-  }
   render() {
     return (
       <div>
@@ -22,7 +19,7 @@ class App extends Component {
               <Countdown date={new Date(2024, 0, 19)} />
             </Card>
             <Card width={"800px"} mx={"auto"} px={4}>
-              <VeliranoList list={velirano} title={title} />
+              <VeliranoList />
             </Card>
           </Content>
         </Layout>

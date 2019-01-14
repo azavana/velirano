@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'rimble-ui';
-import { Nav, Container, NavList, Title } from './styles/NavbarStyles';
+import { Nav, Container, NavList, Title } from './Styles/NavbarStyles';
+import { withTitle } from './Enhancers/NavbarEnhancer';
 
 const Navbar = props => (
   <Nav>
     <Container>
       <NavList>
         <li>
-          <Title>Todo List hoan'i Madagasikara</Title>
+          <Title>{props.title}</Title>
         </li>
         <div>
           <div>
@@ -21,4 +22,4 @@ const Navbar = props => (
   </Nav>
 );
 
-export default Navbar;
+export default withTitle(Navbar);

@@ -1,6 +1,8 @@
 import React from "react";
-import VeliranoItem from "./veliranoItem";
+import VeliranoItem from "./VeliranoItem";
 import { List } from "antd";
+import { withList, withTitle } from "./Enhancers/VeliranoListEnhancer";
+import { compose } from "recompose";
 
 const VeliranoList = props => (
   <List
@@ -13,4 +15,9 @@ const VeliranoList = props => (
   />
 );
 
-export default VeliranoList;
+const withData = compose(
+  withList,
+  withTitle,
+)
+
+export default withData(VeliranoList);
