@@ -72,7 +72,7 @@ class Countdown extends Component {
             <td>Andro</td>
             <td>Ora</td>
             <td>Minitra</td>
-            <td>Sekondra</td>
+            <td>Segondra</td>
           </tr>
         </table>
       </div>
