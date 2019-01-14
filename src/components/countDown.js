@@ -54,28 +54,30 @@ class Countdown extends Component {
           Fotoana mbola hananantsika hatramin'ny 2024
         </Heading>
         <table className="countDownTable">
-          <tbody>
-            <tr>
-              <th>
-                <h1>{`${countDown.days}`}</h1>
-              </th>
-              <th>
-                <h1>{`${countDown.hours}`}</h1>
-              </th>
-              <th>
-                <h1>{`${countDown.min}`}</h1>
-              </th>
-              <th>
-                <h1>{`${countDown.sec.toFixed()}`}</h1>
-              </th>
-            </tr>
-            <tr>
-              <td>Andro</td>
-              <td>Ora</td>
-              <td>Minitra</td>
-              <td>Sekondra</td>
-            </tr>
-          </tbody>
+            <thead>
+              <tr>
+                <th>
+                  <h1>{`${countDown.days}`}</h1>
+                </th>
+                <th>
+                  <h1>{`${countDown.hours}`}</h1>
+                </th>
+                <th>
+                  <h1>{`${countDown.min}`}</h1>
+                </th>
+                <th>
+                  <h1>{`${countDown.sec.toFixed()}`}</h1>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Andro</td>
+                <td>Ora</td>
+                <td>Minitra</td>
+                <td>Sekondra</td>
+              </tr>
+            </tbody>
         </table>
       </div>
     );
