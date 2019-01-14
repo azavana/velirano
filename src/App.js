@@ -16,7 +16,7 @@ class App extends Component {
         <Layout>
           <Content style={{ marginTop: 94 }}>
             <Card width={"800px"} mx={"auto"} px={4}>
-              <Countdown date={new Date(2024, 0, 19)} />
+              <Countdown />
             </Card>
             <Card width={"800px"} mx={"auto"} px={4}>
               <VeliranoList />
