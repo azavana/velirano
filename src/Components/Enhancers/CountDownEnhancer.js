@@ -1,5 +1,7 @@
 import { withState, withProps } from 'recompose';
 
+const heading = "Fotoana mbola hananantsika hatramin'ny 2024";
+
 const countdown = {
   days: 0,
   hours: 0,
@@ -31,6 +33,7 @@ const calculateCountdown = (endDate) => {
   return timeLeft;
 }
 
+export const withHeading = withState('heading', 'setHeading', heading);
 export const withDate = withState('date', 'setDate', new Date(2024, 0, 19));
 export const withCountdown = withState('countdown', 'setCountdown', countdown);
 export const withCalculateCountdown = withProps(props => ({ calculateCountdown }));

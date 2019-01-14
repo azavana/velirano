@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { compose } from "recompose";
 import { Heading, CountDownTable } from "./Styles/CountDownStyles";
 import { 
+  withHeading,
   withDate, 
   withCountdown,
   withCalculateCountdown,
@@ -26,7 +27,7 @@ class Countdown extends Component {
     return (
       <div>
         <Heading>
-          Fotoana mbola hananantsika hatramin'ny 2024
+          {this.props.heading}
         </Heading>
         <CountDownTable>
           <thead>
@@ -60,6 +61,7 @@ class Countdown extends Component {
 }
 
 const withData = compose(
+  withHeading,
   withDate,
   withCountdown,
   withCalculateCountdown,
