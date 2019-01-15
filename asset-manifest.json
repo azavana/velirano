@@ -1,16 +1,16 @@
 {
   "main.css": "/velirano/static/css/main.0705304d.chunk.css",
-  "main.js": "/velirano/static/js/main.c8a349cd.chunk.js",
-  "main.js.map": "/velirano/static/js/main.c8a349cd.chunk.js.map",
+  "main.js": "/velirano/static/js/main.28f1953e.chunk.js",
+  "main.js.map": "/velirano/static/js/main.28f1953e.chunk.js.map",
   "static/css/1.26fda98a.chunk.css": "/velirano/static/css/1.26fda98a.chunk.css",
-  "static/js/1.cc33ce0a.chunk.js": "/velirano/static/js/1.cc33ce0a.chunk.js",
-  "static/js/1.cc33ce0a.chunk.js.map": "/velirano/static/js/1.cc33ce0a.chunk.js.map",
+  "static/js/1.7087c4d1.chunk.js": "/velirano/static/js/1.7087c4d1.chunk.js",
+  "static/js/1.7087c4d1.chunk.js.map": "/velirano/static/js/1.7087c4d1.chunk.js.map",
   "runtime~main.js": "/velirano/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/velirano/static/js/runtime~main.229c360f.js.map",
-  "static/media/source-sans-pro.css": "/velirano/static/media/SourceSansPro-BlackIt.ttf.de6c0dd9.woff2",
+  "static/media/source-sans-pro.css": "/velirano/static/media/SourceSansPro-BlackIt.otf.0e2f3d03.woff",
   "static/css/main.0705304d.chunk.css.map": "/velirano/static/css/main.0705304d.chunk.css.map",
   "static/css/1.26fda98a.chunk.css.map": "/velirano/static/css/1.26fda98a.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.651f2de2af95edbb79147d30bae67f0e.js": "/velirano/precache-manifest.651f2de2af95edbb79147d30bae67f0e.js",
+  "index.html": "/velirano/index.html",
+  "precache-manifest.f649037a85f589ecddf38fe3d0a3a0b3.js": "/velirano/precache-manifest.f649037a85f589ecddf38fe3d0a3a0b3.js",
   "service-worker.js": "/velirano/service-worker.js"
 }
