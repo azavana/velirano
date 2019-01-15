@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const StyledSpan = styled.div`
   background-color: #2db7f5;
@@ -10,4 +10,8 @@ export const StyledSpan = styled.div`
   height: 22px;
   line-height: 22px;
   display: inline-block;
+
+  ${props => props.color && css`
+    background-color: ${props.color};
+  `}
 `

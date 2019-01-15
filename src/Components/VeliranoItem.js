@@ -24,7 +24,7 @@ const VeliranoItem = ({ item, status }) => (
       <Checkbox checked={item.percent === 100} onChange={() => {}} style={{ marginTop: 12 }}/>
       <div>
         <div style={{ marginTop: -20, marginBottom: 10 }}>
-          <Tag text={status.text} />
+          <Tag text={status.text} color={status.color} />
         </div>
         <div>{item.promise}</div>
       </div>
