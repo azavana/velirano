@@ -1,6 +1,6 @@
-export const title = "ToDo List ho an'i Madagasikara";
+export const title = "To-Do List ho an'i Prezidà Andry Rajoelina";
 
-export const sources = ["Madagascar Liberte, 1/10/19"];
+export const sources = ["Madagascar Liberté, 1/10/19"];
 
 export const velirano = [
   {
@@ -10,12 +10,12 @@ export const velirano = [
     comment: ""
   },
   {
-    promise: "4*4 mandeha anaty rano sy amin'ny tendrombohitra",
+    promise: "4*4 mandeha anaty rano sy miakatra amin'ny tendrombohitra",
     done: false,
     comment: ""
   },
   {
-    promise: "Drône manaraka dahalo",
+    promise: "Drône manenjika dahalo",
     done: false,
     comment: ""
   },
@@ -25,7 +25,7 @@ export const velirano = [
     comment: ""
   },
   {
-    promise: "Toilette sy douche manara-penitra any Toamasina",
+    promise: "Toilettes sy douches manara-penitra any Toamasina",
     done: false,
     comment: ""
   },
@@ -40,7 +40,7 @@ export const velirano = [
     comment: ""
   },
   {
-    promise: "Parking Epp",
+    promise: "Parking eny amin'ireo EPP",
     done: false,
     comment: ""
   },
@@ -76,7 +76,7 @@ export const velirano = [
     comment: ""
   },
   {
-    promise: "Paris (ambatondrazaka)",
+    promise: "Paris (Ambatondrazaka)",
     done: false,
     comment: ""
   },
@@ -121,7 +121,7 @@ export const velirano = [
     comment: ""
   },
   {
-    promise: "Kits scolaires + feutre",
+    promise: "Kits scolaires + feutres",
     done: false,
     comment: ""
   },
