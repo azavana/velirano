@@ -1,6 +1,6 @@
 import { withState, withProps } from 'recompose';
 
-const heading = "Fotoana mbola hananantsika hatramin'ny 2024";
+const heading = "Fotoana mbola ananantsika hatramin'ny 2024";
 
 const countdown = {
   days: 0,
