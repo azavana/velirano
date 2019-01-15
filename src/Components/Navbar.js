@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'rimble-ui';
-import { Nav, Container, NavList, Title } from './Styles/NavbarStyles';
-import { withTitle } from './Enhancers/NavbarEnhancer';
+import React from "react";
+import { Link } from "rimble-ui";
+import { Nav, Container, NavList, Title } from "./Styles/NavbarStyles";
+import { withTitle } from "./Enhancers/NavbarEnhancer";
 
 const Navbar = props => (
   <Nav>
@@ -13,7 +13,7 @@ const Navbar = props => (
         <div>
           <div>
             <li>
-              <Link href='https://github.com/azavana/velirano' target="_blank" style={{ fontSize: 20, fontWeight: 'bold' }}>Github</Link>
+              <Link href="https://github.com/azavana/velirano" target="_blank" style={{ fontSize: 20, fontWeight: 'bold' }}>Github</Link>
             </li>
           </div>
         </div>

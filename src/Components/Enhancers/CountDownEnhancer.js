@@ -1,4 +1,4 @@
-import { withState, withProps } from 'recompose';
+import { withState, withProps } from "recompose";
 
 const heading = "Fotoana mbola ananantsika hatramin'ny 2024";
 
@@ -33,7 +33,7 @@ const calculateCountdown = (endDate) => {
   return timeLeft;
 }
 
-export const withHeading = withState('heading', 'setHeading', heading);
-export const withDate = withState('date', 'setDate', new Date(2024, 0, 19));
-export const withCountdown = withState('countdown', 'setCountdown', countdown);
+export const withHeading = withState("heading", "setHeading", heading);
+export const withDate = withState("date", "setDate", new Date(2024, 0, 19));
+export const withCountdown = withState("countdown", "setCountdown", countdown);
 export const withCalculateCountdown = withProps(props => ({ calculateCountdown }));
