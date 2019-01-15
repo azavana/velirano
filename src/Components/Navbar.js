@@ -13,7 +13,7 @@ const Navbar = props => (
         <div>
           <div>
             <li>
-              <Link href='https://github.com/azavana/velirano' target="_blank" style={{ fontSize: 16, fontWeight: 'bold' }}>Github</Link>
+              <Link href='https://github.com/azavana/velirano' target="_blank" style={{ fontSize: 20, fontWeight: 'bold' }}>Github</Link>
             </li>
           </div>
         </div>

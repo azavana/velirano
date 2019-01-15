@@ -24,11 +24,11 @@ const VeliranoItem = ({ item }) => (
         <div>{item.promise}</div>
       </div>
     </div>
-    <div style={{ width: 44, height: 44, minWidth: 44 }}>
+    <div style={{ marginLeft: 10, width: 44, height: 44, minWidth: 44 }}>
       <Circle
         percent={item.percent}
         strokeWidth="14"
-        strokeColor="#F8670D"
+        strokeColor="#00E676"
         trailWidth="14"
         trailColor="#EEEEEE"
       />
