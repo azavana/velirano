@@ -1,11 +1,13 @@
 import React from "react";
 import { Checkbox } from "rimble-ui";
 import { Circle } from "rc-progress";
+import Tag from "./Tag";
+import { withStatus } from "./Enhancers/VeliranoItemEnhancer";
 
-const VeliranoItem = ({ item }) => (
+const VeliranoItem = ({ item, status }) => (
   <div
     style={{
-      minHeight: 100,
+      minHeight: 120,
       display: "flex",
       alignItems: "center",
       justifyContent: "space-between",
@@ -19,8 +21,11 @@ const VeliranoItem = ({ item }) => (
         justifyContent: "flex-start"
       }}
     >
-      <Checkbox checked={item.percent === 100} onChange={() => {}} />
+      <Checkbox checked={item.percent === 100} onChange={() => {}} style={{ marginTop: 12 }}/>
       <div>
+        <div style={{ marginTop: -20, marginBottom: 10 }}>
+          <Tag text={status.text} />
+        </div>
         <div>{item.promise}</div>
       </div>
     </div>
@@ -36,4 +41,4 @@ const VeliranoItem = ({ item }) => (
   </div>
 );
 
-export default VeliranoItem;
+export default withStatus(VeliranoItem);
