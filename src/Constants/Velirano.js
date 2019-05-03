@@ -66,8 +66,8 @@ export const velirano = [
     promise: "SMIG 200.000 Ar",
     done: false,
     comment: "",
-    percent: 0,
-    status: "NOT_STARTED"
+    percent: 90,
+    status: "IN_PROGRESS"
   },
   {
     promise:
@@ -123,8 +123,8 @@ export const velirano = [
     promise: "Hélicoptères 10",
     done: false,
     comment: "",
-    percent: 0,
-    status: "NOT_STARTED"
+    percent: 10,
+    status: "IN_PROGRESS"
   },
   {
     promise: "Fitaovana manara-penitra ho an'ireo miaramila",
@@ -158,15 +158,15 @@ export const velirano = [
     promise: "Projet éthanol miaraka amin’i Mialy",
     done: false,
     comment: "",
-    percent: 0,
-    status: "NOT_STARTED"
+    percent: 100,
+    status: "ACHIEVED"
   },
   {
     promise: "Lalana (Ambilobe-Vohémar, tetezana Ampasika, Anosizato)",
     done: false,
     comment: "",
     percent: 0,
-    status: "NOT_STARTED"
+    status: "IN_PROGRESS"
   },
   {
     promise: "Kits scolaires + feutres",
