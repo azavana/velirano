@@ -87,9 +87,9 @@ export const velirano = [
   {
     promise: "Puce atao amin’ny omby",
     done: false,
-    comment: "",
-    percent: 0,
-    status: "NOT_STARTED"
+    comment: "Jereo https://www.facebook.com/patrick.raharimanana/posts/10215055927052371",
+    percent: 1,
+    status: "IN_PROGRESS"
   },
   {
     promise: "Tramway",
