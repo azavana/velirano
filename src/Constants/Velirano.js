@@ -123,7 +123,7 @@ export const velirano = [
     promise: "Hélicoptères 10",
     done: false,
     comment: "",
-    percent: 10,
+    percent: 20,
     status: "IN_PROGRESS"
   },
   {
