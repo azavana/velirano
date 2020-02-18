@@ -209,5 +209,12 @@ export const velirano = [
     comment: "",
     percent: 0,
     status: "NOT_STARTED"
-  }
+  },
+  {
+    promise: "Famerenana îles éparses ho an'ny Madagasikara",
+    done: false,
+    comment: "",
+    percent: 0,
+    status: "IN_PROGRESS"
+  },
 ];
