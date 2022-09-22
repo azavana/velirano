@@ -34,6 +34,6 @@ const calculateCountdown = (endDate) => {
 }
 
 export const withHeading = withState("heading", "setHeading", heading);
-export const withDate = withState("date", "setDate", new Date(2024, 0, 19));
+export const withDate = withState("date", "setDate", new Date(2023, 0, 19));
 export const withCountdown = withState("countdown", "setCountdown", countdown);
 export const withCalculateCountdown = withProps(props => ({ calculateCountdown }));
