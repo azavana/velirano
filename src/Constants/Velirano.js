@@ -209,5 +209,12 @@ export const velirano = [
     comment: "",
     percent: 0,
     status: "NOT_STARTED"
+  },
+  {
+    promise: "Foanana ny Sénat dia hanamboarana Oniversite ny tetibolan'ny Sénat",
+    done: false,
+    comment: "",
+    percent: 0,
+    status: "NOT_STARTED"
   }
 ];
