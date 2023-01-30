@@ -209,5 +209,12 @@ export const velirano = [
     comment: "",
     percent: 0,
     status: "NOT_STARTED"
+  },
+    {
+    promise: "Mampindrana vola an'i Comores",
+    done: false,
+    comment: "",
+    percent: 0,
+    status: "BROKEN"
   }
 ];
